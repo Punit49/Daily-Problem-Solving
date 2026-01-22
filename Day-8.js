@@ -1,19 +1,8 @@
 /* ============================================================================
-   📘 Day XX – JavaScript Problem Solving
-   ----------------------------------------------------------------------------
-   ✅ Topics Covered:
-   1️⃣ Fibonacci Number Generation (Up to a Given Limit)
-   2️⃣ First Non-Repeating Element in an Array
-
+   Day 8 – Daily Problem Solving
    ---------------------------------------------------------------------------
-   🔹 Q1. Print All Fibonacci Numbers up to a Given Limit
+   Q1. Print All Fibonacci Numbers up to a Given Limit
    ---------------------------------------------------------------------------
-   Approach:
-   - Iterative Fibonacci generation (Bottom-Up / Dynamic Programming)
-   - Stops when the next Fibonacci number exceeds the limit
-
-   Time Complexity : O(n)
-   Space Complexity: O(n)
    ============================================================================ */
 
 function fibonacciUptoLimit(limit){
@@ -35,15 +24,8 @@ console.log(fibonacciUptoLimit(100));
 
 /* ============================================================================
    ---------------------------------------------------------------------------
-   🔹 Q2. Find the First Non-Repeating Element in an Array
+   Q2. Find the First Non-Repeating Element in an Array
    ---------------------------------------------------------------------------
-   Approach:
-   - Use hashing (object) to count occurrences
-   - Traverse the array again to preserve original order
-   - Return the first element with frequency = 1
-
-   Time Complexity : O(n)
-   Space Complexity: O(n)
    ============================================================================ */
 
 function firstUniqueElement(arr){
@@ -62,4 +44,4 @@ function firstUniqueElement(arr){
 
 
 // Example -
-console.log(firstUniqueElement([10, 2, 10, 36, 2, 3, 5])); 
+console.log(firstUniqueElement([10, 2, 10, 36, 2, 3, 5])); // 36
