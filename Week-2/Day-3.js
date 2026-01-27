@@ -1,3 +1,5 @@
+// Week 2, day - 3 of daily probelm solving.
+
 // ? Q. Find largest character in a string.
 function largestChar(str){
     let largest = str[0];

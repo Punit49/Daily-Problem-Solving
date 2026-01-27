@@ -1,5 +1,5 @@
 // ======================================================
-// Day 9 – Daily Problem Solving (JavaScript)
+// week - 2, Day 2 – Daily Problem Solving (JavaScript)
 // ======================================================
 
 

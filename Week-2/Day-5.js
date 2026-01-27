@@ -1,3 +1,5 @@
+// Week-2, Day 5 of daily problem solving.
+
 // ? Q. Check if the Sum of Two Consecutive Fibonacci Numbers is Prime.
 function isSumOfTwoFibonacciIsPrime(a, b){
     function areFibonacci(a, b){
