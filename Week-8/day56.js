@@ -6,7 +6,7 @@
 // Q. Check if an Array is Sorted (Ascending)
 // ------------------------------------------------------
 function isArraySorted(arr){
-    if(arr.length === 0) return trye;
+    if(arr.length === 0) return true;
 
     for(let i = 1; i < arr.length; i++){
         if(arr[i] < arr[i - 1]){
