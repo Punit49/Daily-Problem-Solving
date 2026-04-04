@@ -23,4 +23,3 @@ function getFirstRepeatingElement(arr){
 
 // Example -
 console.log(getFirstRepeatingElement([10, 5, 3, 4, 3, 5, 6]));
-
