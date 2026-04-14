@@ -20,3 +20,4 @@ function spaceCount(str){
 
 // Example -
 console.log(spaceCount("  hi   there  "));
+ 
