@@ -22,14 +22,16 @@ function selectionSortAsc(arr) {
       }
     }
     
-    [arr[i], arr[min]] = [arr[min], arr[i]];  
+    if(min !== i){
+        [arr[i], arr[min]] = [arr[min], arr[i]]; 
+    } 
   }
   
   return arr;
 }
 
 function main(){
-  const sortedArr = selectionSortAsc([7, 2, 9, 4, 1]);
+  const sortedArr = selectionSortAsc([7, 2, 9, -4, 1]);
   console.log(sortedArr);
 }
 
