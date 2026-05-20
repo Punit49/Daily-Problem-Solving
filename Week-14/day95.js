@@ -21,7 +21,7 @@ function twoPointersReverse(str) {
         end--;
     }
 
-    return newStr.join("");
+    return newStr.join(""); 
 }
 
 function main(){
